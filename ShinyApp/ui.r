@@ -5,6 +5,10 @@ library(shiny)
 library(markdown)
 library(tm)
 library(shinythemes)
+library(devtools)
+library(tm)
+library(stringr)
+library(stylo)
 
 #define UI for app
 shinyUI(fluidPage(theme = shinytheme("cerulean"),

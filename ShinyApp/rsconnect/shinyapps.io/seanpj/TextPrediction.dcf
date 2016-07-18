@@ -1,0 +1,9 @@
+name: TextPrediction
+account: seanpj
+server: shinyapps.io
+appId: 115082
+bundleId: 507648
+url: https://seanpj.shinyapps.io/TextPrediction/
+when: 1468812522.74128
+asMultiple: FALSE
+asStatic: FALSE

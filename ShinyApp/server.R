@@ -1,5 +1,13 @@
 # advise server the source script for the predictor algorithm 
-source("predictor.R")
+
+# load library
+library(shiny)
+library(shinyapps)
+library(tm)
+library(stringr)
+library(stylo)
+
+source("text.predictor.r")
 
 # server function takes inputs from ui script and sends them to the 
 # predictor script then returns the results to the ui script
