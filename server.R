@@ -1,16 +1,14 @@
-source("./test.predictor.1.R")
-bi.corpus <- readRDS("bi.corpus.RData")
-tri.corpus <- readRDS("tri.corpus.RData")
-quad.corpus <- readRDS("quad.corpus.RData")
+# advise server the source script for the predictor algorithm 
+source("predictor.R")
 
-
+# server function takes inputs from ui script and sends them to the 
+# predictor script then returns the results to the ui script
 shinyServer(function(input, output) {
-  
   input.word.prediction <- reactive({
     text <- input$text
     input.text <- cleanInput(text)
     input.word.count <- length(input.text)
-    input.word.prediction <- nextinput.word.prediction(input.word.count,input.text)})
+    input.word.prediction <- input.prediction(input.word.count,input.text)})
   
   output$predicted.word <- renderPrint(input.word.prediction())
   output$entered.words <- renderText({ input$text }, quoted = FALSE)
