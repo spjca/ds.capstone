@@ -28,7 +28,7 @@ shinyUI(fluidPage(theme = shinytheme("cerulean"),
                       based on the previous up to 3 words entered. The text prediction is based on corpora
                       randomly gathered from blogs, news sites, and twitter provided by the class. These
                       corpora have been randomly sampled, scrubbed of foul language, and modified for usability.
-                      <p> All relevant code for this project is available on my github page for review.')),
+                      <p> All relevant code for this project is available on my github page found in the links for review.')),
                       tabPanel("About The Author", HTML('
                       <p> Sean Jackson is a computer and data science hobbyist with minimal formal coding experience.
                       All projects are completed in free time after work and on weekends. I thank you for
