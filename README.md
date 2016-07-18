@@ -1,8 +1,5 @@
-# ds.capstone
-capstone shiny test
-
-Coursera and Johns Hopkins University 
-Data Science Specialization Capstone Project
+# Coursera and Johns Hopkins University 
+# Data Science Specialization Capstone Project
 
 Enter the text in the box on the "Text Prediction" tab. The predicted word will be returned
 on the line below as well as a list of all entered words below the predicted word.
