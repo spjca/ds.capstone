@@ -1,6 +1,8 @@
 # Coursera and Johns Hopkins University 
 # Data Science Specialization Capstone Project
 
+https://seanpj.shinyapps.io/TextPrediction/
+
 Enter the text in the box on the "Text Prediction" tab. The predicted word will be returned
 on the line below as well as a list of all entered words below the predicted word.
 
