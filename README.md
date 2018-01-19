@@ -13,9 +13,8 @@ All relevant code for this project is available on github.
 
 About The Author
 
-Sean Jackson is a computer and data science hobbyist with minimal formal coding experience.
-All projects are completed in free time after work and on weekends. I thank you for
-keeping this in mind when reviewing the project.
+Sean Jackson is a computer and data science hobbyist. All projects are completed in free time after work and on weekends. 
+I thank you for keeping this in mind when reviewing the project.
 
 This project is sponsored by Coursera, Johns Hopkins University, and Swiftkey.
 I thank them for their support in learning R. It has been enlightening.
